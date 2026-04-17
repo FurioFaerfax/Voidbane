@@ -1,0 +1,15 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Voidbane_Ingredient_Twilight_Essence",
+          "QuantityMin": 2,
+          "QuantityMax": 5
+        }
+      }
+    ]
+  }
+}

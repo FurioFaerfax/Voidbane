@@ -1,0 +1,12 @@
+{
+  "InstanceId": "VoidbaneFrozenWastesInstance",
+  "Description": {
+    "DisplayName": "server.portals.voidbane_wastes",
+    "FlavorText": "server.portals.voidbane_wastes.description",
+    "ThemeColor": "#f3b33cec",
+    "SplashImage": "DefaultArtwork.png",
+    "Tips": [
+      "server.portals.voidbane_wastes.tip1"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Id": "voidbaneCategory_main",
+  "Icon": "Icons/ItemCategories/Voidbane_Ingredient_Twilight_Essence.png",
+  "Name": "ui.itemcategory.voidbane_main_category",
+  "Order": 6,
+  "Children": [
+    {
+      "Id": "voidbaneCategory_blocks",
+      "Name": "ui.itemcategory.voidbane_blocks_category",
+      "Icon": "Icons/ItemCategories/VoidbaneBlocks.png"
+    },
+    {
+      "Id": "voidbaneCategory_items",
+      "Name": "ui.itemcategory.voidbane_items_category",
+      "Icon": "Icons/ItemCategories/VoidbaneItems.png"
+    }
+  ]
+}

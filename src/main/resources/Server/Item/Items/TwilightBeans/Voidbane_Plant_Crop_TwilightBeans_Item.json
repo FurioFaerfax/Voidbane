@@ -1,0 +1,55 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Plant_Crop_TwilightBeans.name",
+    "Description": "server.items.Voidbane_Plant_Crop_TwilightBeans.description"
+  },
+  "Parent": "Template_Crop_Item",
+  "Icon": "Icons/ItemsGenerated/Plants/TwilightBeans/Voidbane_Plant_Crop_TwilightBeans_Item.png",
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      0,
+      126,
+      11
+    ],
+    "Translation": [
+      -3,
+      -14
+    ]
+  },
+  "Scale": 1.4,
+  "Texture": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Beans.png",
+  "Model": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Beans.blockymodel",
+  "Quality": "Common",
+  "BlockType": {
+    "InteractionHint": "server.interactionHints.harvest",
+    "Material": "Solid",
+    "DrawType": "Model",
+    "HitboxType": "Food_Medium",
+    "CustomModel": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Beans.blockymodel",
+    "CustomModelScale": 0.6,
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Beans.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#cabc3f",
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Harvest": {},
+      "Soft": {}
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "DropOnDeath": true,
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_items"
+  ]
+}

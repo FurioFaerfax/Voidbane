@@ -1,0 +1,130 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "Voidbane_Flower_Duskmoon"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 2,
+      "name": "*Voidbane_Crop_Dawnberry_Block_State_Definitions_StageFinal"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "name": "*Voidbane_Crop_Dawnberry_Block_State_Definitions_StageFinal"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Voidbane_Crop_Dawnberry_Block",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "GrowthProgress": 8.375000325031579E-4,
+            "LastTickGameTime": "0001-01-04T12:04:03.001946500Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "QcVHefJSQw+mKPmTJvclEQ==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "name": "Voidbane_Flower_Duskmoon"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Voidbane_Crop_Dawnberry_Block",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "GrowthProgress": 5.249999812804163E-4,
+            "LastTickGameTime": "0001-01-04T12:04:45.001955594Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "QcVHefJSQw+mKPmTJvclEQ==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "*Voidbane_Crop_Dawnberry_Block_State_Definitions_StageFinal"
+    }
+  ],
+  "fluids": [
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    }
+  ]
+}

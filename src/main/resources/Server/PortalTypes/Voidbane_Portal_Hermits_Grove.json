@@ -1,0 +1,12 @@
+{
+  "InstanceId": "VoidbaneHermitsGroveInstance",
+  "Description": {
+    "DisplayName": "server.portals.voidbane_grove",
+    "FlavorText": "server.portals.voidbane_grove.description",
+    "ThemeColor": "#f3b33cec",
+    "SplashImage": "DefaultArtwork.png",
+    "Tips": [
+      "server.portals.voidbane_grove.tip1"
+    ]
+  }
+}

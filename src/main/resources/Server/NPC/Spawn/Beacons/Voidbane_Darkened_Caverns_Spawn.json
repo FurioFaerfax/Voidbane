@@ -1,0 +1,10 @@
+{
+  "Environments": [
+    "Voidbane_Darkened_Caverns_Environment"
+  ],
+  "NPCs": [
+    {
+      "Id": "Bat"
+    }
+  ]
+}

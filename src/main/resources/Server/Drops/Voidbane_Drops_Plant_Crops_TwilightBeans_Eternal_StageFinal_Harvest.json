@@ -1,0 +1,22 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Voidbane_Plant_Crop_TwilightBeans_Item"
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 100,
+        "Item": {
+          "ItemId": "Ingredient_Life_Essence",
+          "QuantityMin": 4,
+          "QuantityMax": 5
+        }
+      }
+    ]
+  }
+}

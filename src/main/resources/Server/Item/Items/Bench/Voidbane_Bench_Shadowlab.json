@@ -1,0 +1,150 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Bench_Shadowlab.name",
+    "Description": "server.items.Voidbane_Bench_Shadowlab.description"
+  },
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_blocks"
+  ],
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Recipe_Book_Magic_Void",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 50
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Voidbane_ShadowLab.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/voidbane_shadowlab_texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Voidbane_Shadowlab",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "LocalOpenSoundEventId": "SFX_Stone_Coffin_Open_Close",
+      "LocalCloseSoundEventId": "SFX_Stone_Coffin_Open_Close",
+      "CompletedSoundEventId": "SFX_Arcane_Workbench_Craft",
+      "Categories": [
+        {
+          "Id": "Voidbane_Shadowlab_Main",
+          "Icon": "Icons/CraftingCategories/Voidbane_CraftingCategory_Main.png",
+          "Name": "ui.benchCategories.shadowlab_start"
+        },
+        {
+          "Id": "Voidbane_Shadowlab_Infusing",
+          "Icon": "Icons/CraftingCategories/Voidbane_CrtaftingCategory_Infusing.png",
+          "Name": "ui.benchCategories.shadowlab_infusing"
+        }
+      ],
+      "Id": "Voidbane_Shadow",
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "TimeSeconds": 5,
+            "Material": [
+              {
+                "ItemId": "Voidbane_Item_Twilightprism"
+              }
+            ]
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.3
+        }
+      ]
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
+    "State": {
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Alchemy_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Alchemy_Crafting.blockyanim"
+        },
+        "Tier2": {
+          "CustomModel": "Blocks/Benches/Voidbane_ShadowLab_Voidprism_Added.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/voidbane_shadowlab_texture.png"
+            }
+          ],
+          "HitboxType": "Voidbane_Shadowlab"
+        }
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#4d4d4d",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      0,
+      33,
+      0
+    ],
+    "Translation": [
+      13,
+      -26
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 10,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Icon": "Icons/ItemsGenerated/Voidbane_Bench_Shadowlab.png"
+}

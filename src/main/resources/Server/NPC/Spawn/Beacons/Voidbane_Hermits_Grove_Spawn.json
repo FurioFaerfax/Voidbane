@@ -1,0 +1,31 @@
+{
+  "Environments": [
+    "Voidbane_Hermits_Hut_Environment"
+  ],
+  "NPCs": [
+    {
+      "Id": "Boar"
+    },
+    {
+      "Id": "Boar_Piglet"
+    },
+    {
+      "Id": "Bear_Grizzly"
+    },
+    {
+      "Id": "Wolf_Black"
+    },
+    {
+      "Id": "Wolf_White"
+    },
+    {
+      "Id": "Fox"
+    },
+    {
+      "Id": "Deer_Doe"
+    },
+    {
+      "Id": "Deer_Stag"
+    }
+  ]
+}

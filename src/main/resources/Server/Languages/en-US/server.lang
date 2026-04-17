@@ -1,0 +1,70 @@
+items.Voidbane_Plant_Crop_Duskmoon_StageFinal.name=Duskmoon
+items.Voidbane_Plant_Crop_Duskmoon.name=Duskmoon
+items.Voidbane_Plant_Seeds_Duskmoon.name=Duskmoon Seeds
+items.Voidbane_Plant_Seeds_Duskmoon_Eternal.name=Duskmoon Seeds - Eternal
+items.Voidbane_Plant_Seeds_Duskmoon.description=Grows Duskmoon
+items.Voidbane_Plant_Seeds_Duskmoon_Eternal.description=Grows Duskmoon
+
+items.Voidbane_Plant_Crop_TwilightBeans_StageFinal.name=Twilight Beans
+items.Voidbane_Plant_Crop_TwilightBeans.name=Twilight Beans
+items.Voidbane_Plant_Seeds_TwilightBeans.name=Twilight Beans Seeds
+items.Voidbane_Plant_Seeds_TwilightBeans_Eternal.name=Twilight Beans Seeds - Eternal
+items.Voidbane_Plant_Crop_TwilightBeans.description=A result of the shadow Lab
+items.Voidbane_Plant_Seeds_TwilightBeans.description=Grows Twilight Beans
+items.Voidbane_Plant_Seeds_TwilightBeans_Eternal.description=Grows Twilight Beans
+
+items.Voidbane_Bench_Shadowlab.name=Shadowlab
+items.Voidbane_Bench_Shadowlab.description=Shadowlab
+items.Voidbane_Flower_Duskmoon.name=Duskmoon
+items.Voidbane_Flower_Duskmoon.description=A beauty in the Corrupted Lands
+items.Voidbane_Plant_Crop_DawnBerry_Block.name=Dawnberry Bush
+items.Voidbane_Plant_Crop_DawnBerry_Block.description=Grows Dawnberries
+
+items.Voidbane_Plant_Fruit_DawnBerries.name=Dawnberries
+items.Voidbane_Plant_Fruit_Plant_Fruit_DawnBerries.description=Delicous
+
+items.Voidbane_Ingredient_Void_Essence.description=Essence of twilight
+items.Voidbane_Ingredient_Void_Essence.name=Twilight Essence
+
+items.Voidbane_Twilightprism.name=Twilightprism
+items.Voidbane_Twilightprism.description=A prism that emits a twilightish colored light
+
+items.Voidbane_Scale_Fire.description=Scales of the fire Dragon
+items.Voidbane_Scale_Fire.name=Fire Dragon Scales
+
+items.Voidbane_Flask_Decorruption.name=Flask of Decorruption
+items.Voidbane_Flask_Decorruption.description=a fluid with unkown ingredients
+
+items.Voidbane_Flask_IcyTears.name=Flask of Icy Tears
+items.Voidbane_Flask_IcyTears.description=The fluid is made out of Tears from the Ice Dragon
+
+items.Voidbane_Infused_Weapon_Shortbow.name=Inused Bow
+items.Voidbane_Infused_Weapon_Shortbow.description=Infused Bow
+items.Voidbane_Infused_Weapon_Arrow.name=Infused Arrow
+items.Voidbane_Infused_Weapon_Arrow.description=Infused Arrow
+
+items.Voidbane_Infused_Weapon_Arrow_Decorruption.name=Arrow of Draconic decorruption
+items.Voidbane_Infused_Weapon_Arrow_Decorruption.description=A arrow double infused, it banishes Corruption on the Dragon
+
+
+items.PortalKey_Hermits_Grove.name=Fragment: Orbis - Hermits Grove (WIP)
+items.PortalKey_Hermits_Grove.description=A rainy day in a Grove in the Sky
+
+items.PortalKey_Frozen_Wastes.name=Fragment: Orbis - Frozen Wastes (WIP)
+items.PortalKey_Frozen_Wastes.description=A Dragon in the cold, but is it worth it?
+
+items.PortalKey_Darkened_Caverns.name=Fragment: Orbis - Darkened Caverns (WIP)
+items.PortalKey_Darkened_Caverns.description=Voidided in the Dark, but is there Light too?
+
+
+portals.voidbane_grove=Hermits Grove
+portals.voidbane_grove.description=A hermit resides in this beautiful Grove!
+portals.voidbane_grove.tip1=Deep in its Grove, the hermit lives alone among the Nature.
+
+portals.voidbane_wastes=Frozen Wastes
+portals.voidbane_wastes.description=An Cold landscape with a friendly winged Dragon
+portals.voidbane_wastes.tip1=One of the last of his kind, but will he share his wisdom with you?
+
+portals.voidbane_caverns=Darkened Caverns
+portals.voidbane_caverns.description=Arena of the Voidsided
+portals.voidbane_caverns.tip1=Deep in this caverns you will encounter a voidsided Creature, can you bring him back?

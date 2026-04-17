@@ -1,0 +1,29 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Voidbane_Crop_Dawnberry_Block",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "QcVHefJSQw+mKPmTJvclEQ==",
+              "$type": "04"
+            }
+          }
+        }
+      },
+      "support": 15
+    }
+  ]
+}

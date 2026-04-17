@@ -1,0 +1,10 @@
+{
+  "Environments": [
+    "Voidbane_Frozen_Wastes_Environment"
+  ],
+  "NPCs": [
+    {
+      "Id": "Penguin"
+    }
+  ]
+}

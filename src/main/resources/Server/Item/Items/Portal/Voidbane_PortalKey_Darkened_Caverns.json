@@ -1,0 +1,77 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.PortalKey_Darkened_Caverns.name",
+    "Description": "server.items.PortalKey_Darkened_Caverns.description"
+  },
+  "Categories": [
+    "Blocks.Portals",
+    "VoidbaneCategory.voidbaneCategory_items"
+  ],
+  "PortalKey": {
+    "PortalType": "Voidbane_Portal_Darkened_Caverns",
+    "TimeLimitSeconds": 3600
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Miscellaneous/Portal_Shard.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Portal_Shard_Texture.png",
+        "Weight": 1
+      }
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "Quantity": 10,
+        "ItemId": "Ingredient_Crystal_Cyan"
+      },
+      {
+        "ItemId": "Voidbane_Flask_IcyTears",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Voidbane_Ingredient_Twilight_Essence",
+        "Quantity": 30
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Portals"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 2
+  },
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Portal",
+      "Temporary"
+    ]
+  },
+  "Quality": "Uncommon",
+  "ItemLevel": 51,
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      137,
+      22.5
+    ],
+    "Translation": [
+      -9,
+      -15
+    ]
+  },
+  "MaxStack": 1,
+  "Icon": "Icons/ItemsGenerated/Voidbane_PortalKey_Darkened_Caverns.png"
+}

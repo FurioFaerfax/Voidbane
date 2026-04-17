@@ -1,0 +1,106 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.PortalKey_Hermits_Grove.name",
+    "Description": "server.items.PortalKey_Hermits_Grove.description"
+  },
+  "Categories": [
+    "Blocks.Portals",
+    "VoidbaneCategory.voidbaneCategory_items"
+  ],
+  "PortalKey": {
+    "TimeLimitSeconds": 3600,
+    "PortalType": "Voidbane_Portal_Hermits_Grove"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Miscellaneous/Portal_Shard.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Portal_Shard_Texture.png",
+        "Weight": 1
+      }
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "Quantity": 50,
+        "ItemId": "Ingredient_Crystal_Cyan"
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Portals"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 2,
+    "OutputQuantity": 5
+  },
+  "PlayerAnimationsId": "Item",
+  "Quality": "Uncommon",
+  "ItemLevel": 51,
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      137,
+      22.5
+    ],
+    "Translation": [
+      -9,
+      -15
+    ]
+  },
+  "InteractionConfig": {
+    "AllEntities": true
+  },
+  "BuilderTool": {
+    "Id": "Paste",
+    "IsBrush": false,
+    "Args": [
+      {
+        "Type": "Option",
+        "Id": "Origin",
+        "Default": "Anchor",
+        "Options": [
+          "Anchor",
+          "Bottom",
+          "Center",
+          "Top"
+        ]
+      }
+    ]
+  },
+  "MaxStack": 5,
+  "Tags": {
+    "Type": [
+      "Portal",
+      "Temporary"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Voidbane_PortalKey_Darkened_Caverns.png"
+}

@@ -1,0 +1,12 @@
+{
+  "InstanceId": "VoidbaneDarkenedCavernsInstance",
+  "Description": {
+    "DisplayName": "server.portals.voidbane_caverns",
+    "FlavorText": "server.portals.voidbane_caverns.description",
+    "ThemeColor": "#f3b33cec",
+    "SplashImage": "DefaultArtwork.png",
+    "Tips": [
+      "server.portals.voidbane_caverns.tip1"
+    ]
+  }
+}
