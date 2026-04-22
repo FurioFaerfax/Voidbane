@@ -1,8 +1,4 @@
-# Disclaimer: Currently under Development as a Asset pack, will be switched to a Plugin after getting the Models done. The Models and Textures are currently not finished but I wanted to give a first impression what I want to add :)
-
-***
-
-## Update 0.3.0 added 3 Biomes accessed via Fragment keys!
+## Update 0.4.0 added The Npcs to the Biomes, currently you can just interact with a Statue next to the friendly npcs, I had couple of Issues with custom Actions so this is just a Workarround
 
 ***
 
@@ -25,32 +21,28 @@ Voidbane is a Mod that adds a couple of Items, blocks, Npcs and features. The mo
     *   Frozen Wastes: A harsh cold Environment where a structure for the Ice Dragon will spawn
     *   Darkened Caverns: A Devestated land where the Boss fight will take place
 
-+++ **_Note to the Biomes: I added them via WorldgenV2 but I have to figure out how to just spawn 1 of the Structures or how to get a single Structure Instancew like the forgotten temple. In worst case I have a workarround in mind. However next step is to add the Interaction Mechanic to the NPCs and designing the Boss fight, and a bit coding to track the progess: Build now polish later :D_** +++
+*   NPCs:
+    * A hermit in the Wilds (Currently talked to via a statue next to him, due to issues with custom Interactions)
+    * A friendly Ice Dragon (Currently talked to via a statue next to him, due to issues with custom Interactions)
+    * Corrupted Boss to defeat (Currently mimics the Emberwolf)
 
-***
 
-**_!Whats not craftable yet is intentional, but the recipes and where/if you can craft them will change over time, this was neccessary so you can explore most of the content in Survival right now!_**
+*   5(Mini) Chapters, that should kick off the cursebreaker storyline. The Story is written out completely until now, so when I get the NPCs done, it will be immediatley explorable. Starting point is a hermits hut, that can be found in the wild.
+
++++ **_Note to the Biomes: I added them via WorldgenV2 but I have to figure out how to just spawn 1 of the Structures or how to get a single Structure Instancew like the forgotten temple. In worst case I have a workarround in mind._** +++
 
 ***
 
 ## Planned Content:
 
-*   5(Mini) Chapters, that should kick off the cursebreaker storyline. The Story is written out completely until now, so when I get the NPCs done, it will be immediatley explorable. Starting point is a hermits hut, that can be found in the wild.
-
 ### Blocks and Items:
 
-*   A gift once per player per Survival World to Decorate your Base
+*   A gift once per player per Survival World to Decorate your Base (Its alreday present as placeholder, will update in next Update)
 
-### NPCs:
-
-*   A hermit in the Wilds
-*   A friendly Ice Dragon
-*   Corrupted Boss to defeat
 
 ### Mechanics:
 
 *   Infusing(my version of enchanting)
-*   Talk to the NPCs to get Story progression
 
 
 # Credits:

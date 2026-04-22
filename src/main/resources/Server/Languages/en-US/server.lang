@@ -67,4 +67,17 @@ portals.voidbane_wastes.tip1=One of the last of his kind, but will he share his 
 
 portals.voidbane_caverns=Darkened Caverns
 portals.voidbane_caverns.description=Arena of the Voidsided
-portals.voidbane_caverns.tip1=Deep in this caverns you will encounter a voidsided Creature, can you bring him back?
+portals.voidbane_caverns.tip1=Deep in this caverns you will encounter a voidsided Creature, can you bring him back? IMPORTANT NOTICE: For now, you need to collect the loot and switch it in active hand to trigger the progression! I faced multiple issues while developing and couldnt figure out how to solve it, sorry
+
+
+
+
+
+items.Voidbane_Trophy_Statue1.name=Voidbane Statue 1
+items.Voidbane_Trophy_Statue1.description=A Statue that shows the success of progressing through the First 5 Chapters of Voidbane
+
+items.Voidbane_Workarround.name=Just a workarround, do not Decorate with
+
+
+
+

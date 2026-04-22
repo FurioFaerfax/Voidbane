@@ -3,7 +3,8 @@
     "Name": "server.items.Ore_Mithril_Stone.name"
   },
   "Categories": [
-    "Blocks.Ores"
+    "Blocks.Ores",
+    "VoidbaneCategory.voidbaneCategory_blocks"
   ],
   "SubCategory": "Ore",
   "BlockType": {
@@ -77,5 +78,6 @@
   },
   "MaxStack": 25,
   "ItemSoundSetId": "ISS_Blocks_Stone",
-  "Set": "Rock_Volcanic"
+  "Set": "Rock_Volcanic",
+  "Icon": "Icons/ItemsGenerated/Ore_Mithril_Volcanic.png"
 }

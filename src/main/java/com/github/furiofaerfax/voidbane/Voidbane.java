@@ -1,10 +1,9 @@
 package com.github.furiofaerfax.voidbane;
 
 
-import com.github.furiofaerfax.voidbane.builders.BuilderActionTame;
-import com.github.furiofaerfax.voidbane.commands.VoidbaneEnterInstanceCommand;
-import com.github.furiofaerfax.voidbane.commands.VoidbaneStoryProgressCommand;
-import com.github.furiofaerfax.voidbane.events.VoidbanePlayerOnEnterLeave;
+import com.github.furiofaerfax.voidbane.commands.EnterInstanceCommand;
+import com.github.furiofaerfax.voidbane.commands.StoryProgressCommand;
+import com.github.furiofaerfax.voidbane.events.PlayerOnEnterLeave;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.event.events.player.PlayerDisconnectEvent;
 import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
@@ -12,7 +11,6 @@ import com.hypixel.hytale.server.core.io.adapter.PacketAdapters;
 import com.hypixel.hytale.server.core.io.adapter.PacketFilter;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
-import com.hypixel.hytale.server.npc.NPCPlugin;
 
 import javax.annotation.Nonnull;
 
@@ -31,27 +29,26 @@ public class Voidbane extends JavaPlugin {
     protected void setup() {
         LOGGER.atInfo().log("Setting up plugin " + this.getName());
 
-        this.getCommandRegistry().registerCommand(new VoidbaneStoryProgressCommand());
-        this.getCommandRegistry().registerCommand(new VoidbaneEnterInstanceCommand());
-        this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, VoidbanePlayerOnEnterLeave::onPlayerReady);
-        this.getEventRegistry().registerGlobal(PlayerDisconnectEvent.class, VoidbanePlayerOnEnterLeave::onDisconnect);
+        this.getCommandRegistry().registerCommand(new StoryProgressCommand());
+        this.getCommandRegistry().registerCommand(new EnterInstanceCommand());
+        this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, PlayerOnEnterLeave::onPlayerReady);
+//        this.getEventRegistry().registerGlobal(PlayerDisconnectEvent.class, PlayerOnEnterLeave::onDisconnect);
 
 
     }
 
-    @Override
-    protected void start() {
-        LOGGER.atInfo().log("On Start: Registering Tame Action");
-        NPCPlugin.get().registerCoreComponentType("Tame", BuilderActionTame::new);
-        //NPCPlugin.get().registerCoreComponentType("VoidbaneShowDialog", VoidbaneStoryUI::new);
-    }
-
-    @Override
-    protected void shutdown() {
-        if (inboundFilter != null) {
-            PacketAdapters.deregisterInbound(inboundFilter);
-        }
-    }
+//    @Override
+//    protected void start() {
+////        LOGGER.atInfo().log("On Start: Registering Tame Action");
+////        NPCPlugin.get().registerCoreComponentType("Tame", BuilderActionTame::new);
+//    }
+//
+//    @Override
+//    protected void shutdown() {
+//        if (inboundFilter != null) {
+//            PacketAdapters.deregisterInbound(inboundFilter);
+//        }
+//    }
 
 
 

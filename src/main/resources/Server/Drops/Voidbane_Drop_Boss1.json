@@ -1,0 +1,15 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Voidbane_Scales_Workarround",
+          "QuantityMin": 10,
+          "QuantityMax": 10
+        }
+      }
+    ]
+  }
+}

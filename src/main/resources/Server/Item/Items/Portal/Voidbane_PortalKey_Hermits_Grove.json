@@ -99,7 +99,6 @@
       "Temporary"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Voidbane_PortalKey_Darkened_Caverns.png",
   "Interactions": {
     "SwapTo": {
       "Interactions": [
@@ -109,5 +108,6 @@
         }
       ]
     }
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/PortalKey_Howling_Sands.png"
 }

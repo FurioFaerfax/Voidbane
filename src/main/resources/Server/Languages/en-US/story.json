@@ -14,7 +14,7 @@
   },
   "chapter2_0": {
     "npc1": {
-      "line1": "Great, you returned, that could wether mean you forgot what I said, or you may were successfull. Lets see, oh damn, that tastes so Good.",
+      "line1": "Great, you returned, that could wether mean you forgot what I said, or you may were successfull.",
       "line2": "Ok, so you managed to get the Essence, and I am glad you came back, I mentioned that you can infuse stuff with it, but I totally missed to tell you how and what you can do with it.",
       "line3": "So, you may noticed already that the Shadow lab has a Tank, where the Essence is stored, and Im glad you managed to crystalized it, so you understand at least half of the functionalities of my Invention",
       "line4": "As far as I have Investigated, most of normal Gear can be infused with the Twilight essence, but the results are more or less stable, It seems that durability Gain is the most common effect, sometimes your protection is higher, your weapons make more damage but I completely am out of answeres how this system works. I barely can Imagine, that it is the unstable state of twilight itself. So further research is needed!",
@@ -25,10 +25,10 @@
   },
   "chapter3_0": {
     "npc1": {
-      "line1": "Brave one, you returned a second time, you seem to get used to twilighht stuff, thats nice, and the fact that you returned means to me a lot!",
-      "line2": "Theres so much more that I could tell, but I think the time's not right yet. But I apreciate that you continue to listen to an old man whos mind looks like a mashed potatoe more and more every new day. Haha, just kidding.",
-      "line3": "I have a new gift for you; this prism, contains strong energy of both, the light and the dark. If you are braver than me, I want you to put it in the empty slot in the laboratory. Its outcome is not clear yet but as I first forged this prism, it felt like, the infusements of my gear reacted to it. I feared to put it in.",
-      "line4": "Now that you came so far, I have another task..., ...no, not task thats not right, Its the burden that all of our Kind has to carry along, its the Mark on our shoulder, the Evil Contained, talk to the Dragon in the Frozen Lands, he will guide you further"
+      "line1": "Brave one, you returned a second time, you seem to get used to twilight stuff, that's nice, and the fact that you returned means to me a lot!",
+      "line2": "Theres so much more that I could tell, but I think the time's not right yet. But I appreciate that you continue to listen to an old man who's mind looks like a mashed potato more and more every new day. Haha, just kidding.",
+      "line3": "I have a gift for you; this prism, contains strong energy of both, the light and the dark. If you are braver than me, I want you to put it in the empty slot in the laboratory. Its outcome is not clear yet but as I first forged this prism, it felt like, the infusements of my gear reacted to it. I feared to put it in.",
+      "line4": "Now that you came so far, I have another task..., ...no, not task that's not right, Its the burden that all of our Kind has to carry along, its the Mark on our shoulder, the Evil Contained, talk to the Dragon in the Frozen Lands, he will guide you further"
     },
     "npc2": {
     }
@@ -73,7 +73,6 @@
     },
     "npc2": {
       "line1": "I am sad that you had to do it this way, I never thought it was possible, but as he died, it teared a part of my soul out of me!",
-      "line2": "My brother is back, but so many arent, it is your burden to search for an solution to heal Orbis, its your destiny, dont forget it!",
       "line3": "I could tell you so many things about Gaia and Varyn, but it feels like not the right time and place for it.",
       "line4": "Visit the first one again, he may want to give you something too!",
       "line5": "I await for the future to call for you again, you will know when the time has come, know proceed, brave one!"

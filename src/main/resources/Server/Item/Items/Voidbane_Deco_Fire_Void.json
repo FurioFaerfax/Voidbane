@@ -3,7 +3,7 @@
     "Name": "server.items.Deco_Fire.name"
   },
   "Categories": [
-    "Blocks.Deco"
+    "VoidbaneCategory.voidbaneCategory_blocks"
   ],
   "BlockType": {
     "DrawType": "Model",
@@ -79,5 +79,6 @@
       "Deco"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Wood"
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Icon": "Icons/ItemsGenerated/Deco_Fire.png"
 }

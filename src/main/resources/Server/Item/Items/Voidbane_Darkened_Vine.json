@@ -45,5 +45,8 @@
     ]
   },
   "ItemLevel": 41,
-  "Icon": "Icons/ItemsGenerated/Voidbane_Darkened_Vine.png"
+  "Icon": "Icons/ItemsGenerated/Voidbane_Darkened_Vine.png",
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_blocks"
+  ]
 }
