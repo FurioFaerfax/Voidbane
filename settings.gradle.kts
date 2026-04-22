@@ -17,7 +17,6 @@ hytale {
     }
 
     dependencies {
-        // Any external dependency you also want to include
     }
 
     manifest {

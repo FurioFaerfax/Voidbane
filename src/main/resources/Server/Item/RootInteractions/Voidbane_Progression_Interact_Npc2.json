@@ -1,0 +1,8 @@
+{
+  "Interactions": [
+    {
+      "Type": "Command",
+      "Command": "setVoidbaneStoryProgress 2 -1 voidbaneStoryDoNotTouch"
+    }
+  ]
+}

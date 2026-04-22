@@ -1,0 +1,40 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Fireplace_Smoke_Cartoon",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.25,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "Voidbane_Fire_Up_Void",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.1,
+        "Z": 0
+      },
+      "Attractors": []
+    },
+    {
+      "SpawnerId": "Voidbane_Fire_Center_Void",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.1,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "Voidbane_Fire_Sparks_Up_Void",
+      "PositionOffset": {
+        "Y": 0
+      }
+    },
+    {
+      "SpawnerId": "Fireplace_Distortion"
+    }
+  ],
+  "$Comment": "Candidate to stay Cartoon",
+  "CullDistance": 60
+}

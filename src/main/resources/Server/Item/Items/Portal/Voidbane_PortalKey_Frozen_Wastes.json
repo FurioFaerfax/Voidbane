@@ -74,5 +74,15 @@
       "Temporary"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Voidbane_PortalKey_Darkened_Caverns.png"
+  "Icon": "Icons/ItemsGenerated/Voidbane_PortalKey_Darkened_Caverns.png",
+  "Interactions": {
+    "SwapTo": {
+      "Interactions": [
+        {
+          "Type": "Command",
+          "Command": "setVoidbaneGivenGiftRepeat voidbaneStoryDoNotTouch"
+        }
+      ]
+    }
+  }
 }

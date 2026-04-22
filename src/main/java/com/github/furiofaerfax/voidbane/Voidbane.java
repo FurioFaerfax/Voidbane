@@ -1,22 +1,58 @@
 package com.github.furiofaerfax.voidbane;
 
+
+import com.github.furiofaerfax.voidbane.builders.BuilderActionTame;
+import com.github.furiofaerfax.voidbane.commands.VoidbaneEnterInstanceCommand;
+import com.github.furiofaerfax.voidbane.commands.VoidbaneStoryProgressCommand;
+import com.github.furiofaerfax.voidbane.events.VoidbanePlayerOnEnterLeave;
+import com.hypixel.hytale.logger.HytaleLogger;
+import com.hypixel.hytale.server.core.event.events.player.PlayerDisconnectEvent;
 import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
+import com.hypixel.hytale.server.core.io.adapter.PacketAdapters;
+import com.hypixel.hytale.server.core.io.adapter.PacketFilter;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
-import com.github.furiofaerfax.voidbane.commands.ExampleCommand;
-import com.github.furiofaerfax.voidbane.events.ExampleEvent;
+import com.hypixel.hytale.server.npc.NPCPlugin;
 
 import javax.annotation.Nonnull;
 
 public class Voidbane extends JavaPlugin {
 
+    private PacketFilter inboundFilter;
+    private static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
+
+
     public Voidbane(@Nonnull JavaPluginInit init) {
         super(init);
+        LOGGER.atInfo().log("Hello from " + this.getName() + " version " + this.getManifest().getVersion().toString());
     }
 
     @Override
     protected void setup() {
-        this.getCommandRegistry().registerCommand(new ExampleCommand("example", "An example command"));
-        this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, ExampleEvent::onPlayerReady);
+        LOGGER.atInfo().log("Setting up plugin " + this.getName());
+
+        this.getCommandRegistry().registerCommand(new VoidbaneStoryProgressCommand());
+        this.getCommandRegistry().registerCommand(new VoidbaneEnterInstanceCommand());
+        this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, VoidbanePlayerOnEnterLeave::onPlayerReady);
+        this.getEventRegistry().registerGlobal(PlayerDisconnectEvent.class, VoidbanePlayerOnEnterLeave::onDisconnect);
+
+
     }
+
+    @Override
+    protected void start() {
+        LOGGER.atInfo().log("On Start: Registering Tame Action");
+        NPCPlugin.get().registerCoreComponentType("Tame", BuilderActionTame::new);
+        //NPCPlugin.get().registerCoreComponentType("VoidbaneShowDialog", VoidbaneStoryUI::new);
+    }
+
+    @Override
+    protected void shutdown() {
+        if (inboundFilter != null) {
+            PacketAdapters.deregisterInbound(inboundFilter);
+        }
+    }
+
+
+
 }
