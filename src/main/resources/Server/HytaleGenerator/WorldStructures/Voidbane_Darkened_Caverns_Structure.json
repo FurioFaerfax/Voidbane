@@ -1,34 +1,3 @@
-{
-  "Type": "NoiseRange",
-  "Biomes": [],
-  "DefaultBiome": "Voidbane_Darkened_Caverns_Biome",
-  "DefaultTransitionDistance": 32,
-  "MaxBiomeEdgeDistance": 32,
-  "Density": {
-    "Type": "Constant",
-    "Value": 0
-  },
-  "Framework": [
-    {
-      "Type": "DecimalConstants",
-      "Entries": [
-        {
-          "Name": "Base",
-          "Value": 80
-        },
-        {
-          "Name": "Water",
-          "Value": 80
-        },
-        {
-          "Name": "Bedrock",
-          "Value": 0
-        },
-        {
-          "Name": "Islands",
-          "Value": 200
-        }
-      ]
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0ff522bab2c584d29952ea626d4bcbc4911bdc420e9b3dbd6bd026e974d681c
+size 597

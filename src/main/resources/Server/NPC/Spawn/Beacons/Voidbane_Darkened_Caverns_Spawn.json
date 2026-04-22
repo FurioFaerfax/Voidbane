@@ -1,10 +1,3 @@
-{
-  "Environments": [
-    "Voidbane_Darkened_Caverns_Environment"
-  ],
-  "NPCs": [
-    {
-      "Id": "Bat"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55a98455f3d9da972f5192526a79f092f132166dc165fffb02396922bb15ad14
+size 119

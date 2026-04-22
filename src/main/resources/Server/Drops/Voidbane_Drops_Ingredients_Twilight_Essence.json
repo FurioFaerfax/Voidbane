@@ -1,15 +1,3 @@
-{
-  "Container": {
-    "Type": "Multiple",
-    "Containers": [
-      {
-        "Type": "Single",
-        "Item": {
-          "ItemId": "Voidbane_Ingredient_Twilight_Essence",
-          "QuantityMin": 2,
-          "QuantityMax": 5
-        }
-      }
-    ]
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f402945759261ca9759ebc4b9c949db07bafce2435fc44d8eaf7b41894708ada
+size 260

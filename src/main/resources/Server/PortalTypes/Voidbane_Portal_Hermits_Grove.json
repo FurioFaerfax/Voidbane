@@ -1,12 +1,3 @@
-{
-  "InstanceId": "VoidbaneHermitsGroveInstance",
-  "Description": {
-    "DisplayName": "server.portals.voidbane_grove",
-    "FlavorText": "server.portals.voidbane_grove.description",
-    "ThemeColor": "#f3b33cec",
-    "SplashImage": "DefaultArtwork.png",
-    "Tips": [
-      "server.portals.voidbane_grove.tip1"
-    ]
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:131ec80532c3daa65453b6fe0a97c4de8fb03391d9fefaf397f78b20505c6a1b
+size 325

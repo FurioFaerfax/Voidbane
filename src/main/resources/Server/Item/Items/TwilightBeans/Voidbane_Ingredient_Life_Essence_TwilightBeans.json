@@ -1,35 +1,3 @@
-{
-  "TranslationProperties": {
-    "Name": "server.items.Ingredient_Life_Essence.name",
-    "Description": "server.items.Ingredient_Life_Essence.description"
-  },
-  "Variant": true,
-  "Parent": "Ingredient_Life_Essence",
-  "ItemLevel": 7,
-  "Icon": "Icons/ItemsGenerated/Plants/TwilightBeans/Voidbane_Ingredient_Life_Essence_TwilightBeans.png",
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Voidbane_Plant_Crop_TwilightBeans_Item",
-        "Quantity": 1
-      }
-    ],
-    "Output": [
-      {
-        "ItemId": "Ingredient_Life_Essence",
-        "Quantity": 8
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "RequiredTierLevel": 5,
-        "Type": "Crafting",
-        "Id": "Farmingbench",
-        "Categories": [
-          "Essence"
-        ]
-      }
-    ],
-    "OutputQuantity": 8
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:231fae692dd0f9b46b404f1aec99f53e380f42ac7369fcd61d38378f3254e65f
+size 808

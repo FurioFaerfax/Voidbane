@@ -1,20 +1,3 @@
-{
-    "Group": "FurioFaerfax",
-    "Name": "Voidbane",
-    "Version": "0.4.0",
-    "Description": "Voidbane, is a Mod that adds a couple new materials to the Game, but besides this, its planned to be a story driven Mod, that follows my Interpratation of the Cursebreaker Story",
-    "Authors": [
-        {
-            "Name": "FurioFaerfax",
-            "Email": "f-faerfax_hytale.frozen644@passinbox.com",
-            "Url": "https://www.curseforge.com/members/furio_faerfax/projects"
-        }
-    ],
-    "Website": "https://www.curseforge.com/hytale/mods/voidbane",
-    "DisabledByDefault": false,
-    "IncludesAssetPack": true,
-    "Dependencies": {},
-    "OptionalDependencies": {},
-    "ServerVersion": "2026.03.26-89796e57b",
-    "Main": "com.github.furiofaerfax.voidbane.Voidbane"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:850703306f391241e08e1dd850f474d8d738ccfbd506f26fe61f6a767ff3e858
+size 790

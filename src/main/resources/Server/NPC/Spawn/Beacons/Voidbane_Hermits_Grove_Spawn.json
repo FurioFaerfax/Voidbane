@@ -1,31 +1,3 @@
-{
-  "Environments": [
-    "Voidbane_Hermits_Hut_Environment"
-  ],
-  "NPCs": [
-    {
-      "Id": "Boar"
-    },
-    {
-      "Id": "Boar_Piglet"
-    },
-    {
-      "Id": "Bear_Grizzly"
-    },
-    {
-      "Id": "Wolf_Black"
-    },
-    {
-      "Id": "Wolf_White"
-    },
-    {
-      "Id": "Fox"
-    },
-    {
-      "Id": "Deer_Doe"
-    },
-    {
-      "Id": "Deer_Stag"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7cb97e37a40647757f1a7c4b7d20d4996b89768789af8ffb6a2254acd28f4e7b
+size 374
