@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2cb3750e474ac97e0c75fa5a2968d0f1539763914d20749a09e1612c414ce55b
-size 471
+{
+  "Type": "Variant",
+  "Reference": "Template_Placeholder",
+  "Modify": {
+    "Appearance": "Dragon_Frost",
+    "MaxHealth": 400,
+    "PlaceholderAnimation": "Sleep",
+    "IsMemory": true,
+    "MemoriesCategory": "Mythic",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Dragon_Frost.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

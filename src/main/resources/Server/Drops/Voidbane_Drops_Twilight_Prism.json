@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:183445e09ea6f185269bd9a333862501d8413e10f1de003e4252436242c43eb8
-size 113
+{
+  "Container": {
+    "Type": "Single",
+    "Item": {
+      "ItemId": "Voidbane_Item_Twilightprism"
+    }
+  }
+}

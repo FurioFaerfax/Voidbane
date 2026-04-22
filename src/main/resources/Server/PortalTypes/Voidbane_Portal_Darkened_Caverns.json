@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3b5163a72f135d173bec8c5eabc7d802dfd5b3109cde32977194bf771bb80fb9
-size 334
+{
+  "InstanceId": "VoidbaneDarkenedCavernsInstance",
+  "Description": {
+    "DisplayName": "server.portals.voidbane_caverns",
+    "FlavorText": "server.portals.voidbane_caverns.description",
+    "ThemeColor": "#f3b33cec",
+    "SplashImage": "DefaultArtwork.png",
+    "Tips": [
+      "server.portals.voidbane_caverns.tip1"
+    ]
+  }
+}

@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c355144f39cd25c8387a946d49db7d4b2861a4ec15d876a14aa02b2d33b91cc7
-size 526
+{
+  "Id": "voidbaneCategory_main",
+  "Icon": "Icons/ItemCategories/Voidbane_Ingredient_Twilight_Essence.png",
+  "Name": "ui.itemcategory.voidbane_main_category",
+  "Order": 6,
+  "Children": [
+    {
+      "Id": "voidbaneCategory_blocks",
+      "Name": "ui.itemcategory.voidbane_blocks_category",
+      "Icon": "Icons/ItemCategories/VoidbaneBlocks.png"
+    },
+    {
+      "Id": "voidbaneCategory_items",
+      "Name": "ui.itemcategory.voidbane_items_category",
+      "Icon": "Icons/ItemCategories/VoidbaneItems.png"
+    }
+  ]
+}

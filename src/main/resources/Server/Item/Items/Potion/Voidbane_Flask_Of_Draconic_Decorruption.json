@@ -1,3 +1,65 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0a63f6efdbccd3ad88fefbceb0d7639f9f99ab75f8d1b917e987b82e6b2a588b
-size 1428
+{
+  "Parent": "Wood_Sticks",
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Flask_Decorruption.name",
+    "Description": "server.items.Voidbane_Flask_Decorruption.description"
+  },
+  "Quality": "Common",
+  "ItemLevel": 7,
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -9
+    ]
+  },
+  "BlockType": {
+    "CustomModel": "Items/Voidbane_Flask.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Voidbane_Flask_Decorruption.png",
+        "Weight": 1
+      }
+    ],
+    "BlockParticleSetId": "GlassMagic",
+    "ParticleColor": "#869940",
+    "Light": {
+      "Color": "#522"
+    },
+    "Opacity": "Transparent",
+    "BlockSoundSetId": "Glass",
+    "Gathering": {
+      "Harvest": {
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Voidbane_Flask_Of_Draconic_Decorruption"
+            }
+          }
+        }
+      },
+      "Soft": {
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Voidbane_Flask_Of_Draconic_Decorruption"
+            }
+          }
+        }
+      }
+    }
+  },
+  "MaxStack": 5,
+  "DropOnDeath": true,
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_items"
+  ],
+  "Icon": "Icons/ItemsGenerated/Voidbane_Flask_Decorruption.png"
+}

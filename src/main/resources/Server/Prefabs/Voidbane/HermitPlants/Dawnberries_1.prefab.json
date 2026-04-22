@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3b29e0bf2120e79f0f7db4c727d66cb372db05f5ae28ac1477f17eaf8fbb06c5
-size 564
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Voidbane_Crop_Dawnberry_Block",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "QcVHefJSQw+mKPmTJvclEQ==",
+              "$type": "04"
+            }
+          }
+        }
+      },
+      "support": 15
+    }
+  ]
+}

@@ -1,3 +1,69 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1eeb583f77c038e5bfd678123d79535805dd1983c27edb7c6096ca074ef8f3a7
-size 1479
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "name": "Voidbane_Crop_Dawnberry_Block",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "QcVHefJSQw+mKPmTJvclEQ==",
+              "$type": "04"
+            }
+          }
+        }
+      },
+      "support": 15
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "name": "Voidbane_Crop_Dawnberry_Block",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "QcVHefJSQw+mKPmTJvclEQ==",
+              "$type": "04"
+            }
+          }
+        }
+      },
+      "support": 15
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1,
+      "name": "Voidbane_Crop_Dawnberry_Block",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "QcVHefJSQw+mKPmTJvclEQ==",
+              "$type": "04"
+            }
+          }
+        }
+      },
+      "support": 15
+    }
+  ]
+}

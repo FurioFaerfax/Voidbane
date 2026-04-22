@@ -1,3 +1,59 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c1b6ca2a5eda9c6741f6e35430be630b95f558fca6595378d265e468543acf5e
-size 1226
+{
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Scale_Fire.name",
+    "Description": "server.items.Voidbane_Scale_Fire.description"
+  },
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_items"
+  ],
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Voidbane_Scale_Fire_Dragon.png",
+        "Weight": 1
+      }
+    ],
+    "Light": {
+      "Color": "#5ab",
+      "Radius": 0
+    },
+    "ParticleColor": "#342655",
+    "Particles": [
+      {
+        "Color": "#9cebff",
+        "SystemId": "Block_Gem_Sparks"
+      }
+    ],
+    "CustomModel": "Items/Voidbane_Scale_Fire_Dragon.blockymodel",
+    "BlockSoundSetId": "Gem",
+    "Gathering": {
+      "Soft": {
+        "ItemId": "Voidbane_Scale_Fire_Dragon"
+      },
+      "Harvest": {
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Voidbane_Scale_Fire_Dragon"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Voidbane_Scale_Fire_Dragon.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      47,
+      20
+    ],
+    "Translation": [
+      1,
+      -1
+    ]
+  },
+  "Parent": "Wood_Sticks"
+}

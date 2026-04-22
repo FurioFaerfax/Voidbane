@@ -1,3 +1,83 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5e57a27c5842cb52e98abc3876604aabd31b5c71b3bc1b1e8540e23482f904d2
-size 1603
+{
+  "TranslationProperties": {
+    "Name": "server.items.Deco_Fire.name"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "DrawType": "Model",
+    "BlockSoundSetId": "Flame",
+    "CustomModel": "Items/Projectiles/Projectile.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Projectiles/Tornado_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "Opacity": "Transparent",
+    "Light": {
+      "Color": "#a5d"
+    },
+    "Flags": {},
+    "Gathering": {
+      "Soft": {
+        "DropList": "Empty"
+      }
+    },
+    "HitboxType": "Plant_Large",
+    "BlockParticleSetId": "Dust",
+    "Particles": [
+      {
+        "SystemId": "Voidbane_Campfire_New_Cartoon",
+        "TargetNodeName": "Flame",
+        "Scale": 0.9,
+        "RotationOffset": {
+          "Yaw": 0,
+          "Pitch": -90
+        },
+        "Color": "#f669d5"
+      }
+    ],
+    "ParticleColor": "#655d5d",
+    "AmbientSoundEventId": "SFX_Flame_Default_Loop",
+    "Looping": true,
+    "Interactions": {
+      "Collision": {
+        "Cooldown": {
+          "Id": "BurnEffect",
+          "Cooldown": 1
+        },
+        "Interactions": [
+          {
+            "Type": "ApplyEffect",
+            "EffectId": "Burn"
+          }
+        ]
+      }
+    },
+    "Material": "Empty",
+    "Tint": [
+      "#c32cbc"
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.665,
+    "Translation": [
+      0,
+      -13.5
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

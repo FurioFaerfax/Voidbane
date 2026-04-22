@@ -1,3 +1,89 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d49da6dbc89a81831521419e2d584ad28eece0cc8972761241617ab01611887a
-size 1282
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "name": "Voidbane_Flower_Duskmoon"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 4,
+      "name": "Voidbane_Flower_Duskmoon"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -3,
+      "name": "Voidbane_Flower_Duskmoon"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Voidbane_Flower_Duskmoon"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 4,
+      "name": "Voidbane_Flower_Duskmoon"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -1,
+      "name": "Voidbane_Flower_Duskmoon"
+    }
+  ],
+  "fluids": [
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    }
+  ]
+}

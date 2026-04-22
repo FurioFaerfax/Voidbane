@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fff2cfec7eec9e52a5d792e779e8d1fac0e86f812bc550f9abdd2ea9bcbe3099
-size 376
+{
+  "Type": "Variant",
+  "Reference": "Template_Placeholder",
+  "Modify": {
+    "Appearance": "Dragon_Fire",
+    "MaxHealth": 400,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Dragon_Fire.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

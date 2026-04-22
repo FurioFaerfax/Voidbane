@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ac1819256005f7570ea0b0de85c6353c34a77e793ed6cef848613a1cb575a227
-size 75
+{
+  "SpawnPoint": [
+    0,
+    0,
+    0
+  ],
+  "LoadedPrefabMetadata": []
+}

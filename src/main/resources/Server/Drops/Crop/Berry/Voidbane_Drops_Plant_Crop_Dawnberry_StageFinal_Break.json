@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:39eb78b2613fbd3832993c4a4ae1f44a860bc2456274e1b3dead0eb37b67ea05
-size 801
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Voidbane_Plant_Fruit_DawnBerries",
+          "QuantityMin": 1,
+          "QuantityMax": 1
+        }
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Voidbane_Plant_Fruit_DawnBerries",
+          "QuantityMin": 1,
+          "QuantityMax": 1
+        },
+        "Weight": 3.0
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Ingredient_Life_Essence",
+          "QuantityMin": 1,
+          "QuantityMax": 1
+        },
+        "Weight": 5
+      },
+      {
+        "Type": "Single",
+        "Weight": 100,
+        "Item": {
+          "ItemId": "Voidbane_Crop_Dawnberry_Block"
+        }
+      }
+    ]
+  }
+}

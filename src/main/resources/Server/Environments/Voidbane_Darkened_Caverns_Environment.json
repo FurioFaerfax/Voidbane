@@ -1,3 +1,149 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:623be8f077c0d94fef19f1285c23fb77b204ae7b299fe10fcf91edc271a0d019
-size 2303
+{
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "Zone4_Spooky",
+        "Weight": 100
+      }
+    ]
+  },
+  "WaterTint": "#f800ff"
+}

@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c6cc020bceebfbd36e23365747eec05c36c6ae1cf943368c9ba4407f817b76f
-size 402
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Voidbane_Plant_Crop_TwilightBeans_Item"
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 100,
+        "Item": {
+          "ItemId": "Ingredient_Life_Essence",
+          "QuantityMin": 4,
+          "QuantityMax": 5
+        }
+      }
+    ]
+  }
+}

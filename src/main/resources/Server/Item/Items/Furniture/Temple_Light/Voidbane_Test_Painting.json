@@ -1,3 +1,64 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7518e14d1746e14dc03d6a14e165f239790c8edc25effc9b418eafee85dec923
-size 1321
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Temple_Light_Painting.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Signs"
+  ],
+  "Set": "Furniture_Temple_Light",
+  "Icon": "Icons/ItemsGenerated/Furniture_Temple_Light_Painting.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.68,
+    "Translation": [
+      8.5,
+      -19.700001
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Stone",
+    "CustomModel": "Blocks/Decorative_Sets/Temple_Light/Painting.blockymodel",
+    "CustomModelScale": 1,
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Temple_Light/Painting_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "HitboxType": "Painting",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Use": "Voidbane_Progression_Interact_Npc1"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Temple"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

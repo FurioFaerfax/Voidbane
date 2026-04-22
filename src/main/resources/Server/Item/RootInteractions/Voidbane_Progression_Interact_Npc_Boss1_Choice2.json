@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8d8f9be20f6a8d09bc1c35136dbda233f83318737d4a972be5c5d6a2ee4f6b9f
-size 138
+{
+  "Interactions": [
+    {
+      "Type": "Command",
+      "Command": "setVoidbaneStoryProgress -1 1 voidbaneStoryDoNotTouch"
+    }
+  ]
+}

@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2eba532662a149b8a0656f2631c4b896e3319574d01f29c441d4ffa9aa9d795a
-size 227
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Weight": 100.0,
+        "Item": {
+          "ItemId": "Voidbane_Plant_Seeds_TwilightBeans"
+        }
+      }
+    ]
+  }
+}

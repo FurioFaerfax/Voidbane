@@ -1,3 +1,65 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:39df71fff7b6a806d025804b3bc2cafef094df51311fcbf2361ade8d92434626
-size 1381
+{
+  "Parent": "Wood_Sticks",
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Flask_IcyTears.name",
+    "Description": "server.items.Voidbane_Flask_IcyTears.description"
+  },
+  "Quality": "Common",
+  "ItemLevel": 7,
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -9
+    ]
+  },
+  "BlockType": {
+    "CustomModel": "Items/Voidbane_Flask.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Voidbane_Flask_Icy_tears.png",
+        "Weight": 1
+      }
+    ],
+    "BlockParticleSetId": "GlassMagic",
+    "ParticleColor": "#6ca4d1",
+    "Light": {
+      "Color": "#522"
+    },
+    "Opacity": "Transparent",
+    "BlockSoundSetId": "Glass",
+    "Gathering": {
+      "Soft": {
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Voidbane_Flask_IcyTears"
+            }
+          }
+        }
+      },
+      "Harvest": {
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Voidbane_Flask_IcyTears"
+            }
+          }
+        }
+      }
+    }
+  },
+  "MaxStack": 5,
+  "DropOnDeath": true,
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_items"
+  ],
+  "Icon": "Icons/ItemsGenerated/Voidbane_Flask_IcyTears.png"
+}

@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:029792f00d66fa5f00137e457df8092a36c9939854adb775ab1e9ab91a0266cc
-size 976
+{
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Flower_Duskmoon.name",
+    "Description": "server.items.Voidbane_Flower_Duskmoon.description"
+  },
+  "Parent": "Plant_Flower_Common_White",
+  "BlockType": {
+    "InteractionHint": "server.interactionHints.pick",
+    "CustomModel": "Blocks/Foliage/Plants/Cross.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/Flowers/Voidbane_Flowers_Duskmoon.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Soft": {
+        "DropList": "Voidbane_Drops_Flower_Duskmoon_Harvest"
+      },
+      "Harvest": {}
+    },
+    "ParticleColor": "#32164e",
+    "CustomModelScale": 0.8
+  },
+  "IconProperties": {
+    "Scale": 0.685,
+    "Rotation": [
+      0,
+      103.685,
+      18.185
+    ],
+    "Translation": [
+      0,
+      -14.3
+    ]
+  },
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_blocks"
+  ],
+  "Icon": "Icons/ItemsGenerated/Voidbane_Flower_Duskmoon.png"
+}

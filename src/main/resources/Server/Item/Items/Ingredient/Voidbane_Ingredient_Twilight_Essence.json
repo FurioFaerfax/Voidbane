@@ -1,3 +1,57 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5c4aaf5ec7d2c8fd32ccad304c5bad983720053ddb56c581782c1acfa3c47617
-size 1190
+{
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Ingredient_Void_Essence.name",
+    "Description": "server.items.Voidbane_Ingredient_Void_Essence.description"
+  },
+  "Quality": "Uncommon",
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_items"
+  ],
+  "Model": "Resources/Ingredients/Essence.blockymodel",
+  "Texture": "Resources/Ingredients/Voidbane_Ingredient_Twilight_Essence.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -13
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Scale": 0.8,
+  "Light": {
+    "Color": "#103",
+    "Radius": 1
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": true,
+  "Icon": "Icons/ItemsGenerated/Voidbane_Ingredient_Twilight_Essence.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Voidbane_Plant_Crop_TwilightBeans_Item",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Voidbane_Shadow",
+        "Categories": [
+          "Voidbane_Shadowlab_Main"
+        ]
+      }
+    ]
+  }
+}

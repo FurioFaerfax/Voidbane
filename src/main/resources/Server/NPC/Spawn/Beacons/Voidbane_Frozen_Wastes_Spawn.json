@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e33cfec5ae6d810be0185ffbc65eed63a217cee473a06c75514fddb6f2bcde57
-size 120
+{
+  "Environments": [
+    "Voidbane_Frozen_Wastes_Environment"
+  ],
+  "NPCs": [
+    {
+      "Id": "Penguin"
+    }
+  ]
+}

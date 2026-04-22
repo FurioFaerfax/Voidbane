@@ -1,3 +1,88 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1b511c9376f0fb6766e3895a6fb0d538a58a755e4880166bdf27c76a2a139372
-size 1826
+{
+  "TranslationProperties": {
+    "Name": "server.items.PortalKey_Frozen_Wastes.name",
+    "Description": "server.items.PortalKey_Frozen_Wastes.description"
+  },
+  "Categories": [
+    "Blocks.Portals",
+    "VoidbaneCategory.voidbaneCategory_items"
+  ],
+  "PortalKey": {
+    "PortalType": "Voidbane_Portal_Frozen_Wastes",
+    "TimeLimitSeconds": 3600
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Miscellaneous/Portal_Shard.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Portal_Shard_Texture.png",
+        "Weight": 1
+      }
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "Quantity": 20,
+        "ItemId": "Ingredient_Crystal_Cyan"
+      },
+      {
+        "ItemId": "Rock_Ice",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Voidbane_Ingredient_Twilight_Essence",
+        "Quantity": 15
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Portals"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 2,
+    "OutputQuantity": 2
+  },
+  "PlayerAnimationsId": "Item",
+  "Quality": "Uncommon",
+  "ItemLevel": 51,
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      137,
+      22.5
+    ],
+    "Translation": [
+      -9,
+      -15
+    ]
+  },
+  "MaxStack": 2,
+  "Tags": {
+    "Type": [
+      "Portal",
+      "Temporary"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Voidbane_PortalKey_Darkened_Caverns.png",
+  "Interactions": {
+    "SwapTo": {
+      "Interactions": [
+        {
+          "Type": "Command",
+          "Command": "setVoidbaneGivenGiftRepeat voidbaneStoryDoNotTouch"
+        }
+      ]
+    }
+  }
+}

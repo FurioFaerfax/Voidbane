@@ -1,3 +1,232 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:64df90d93bbf807e06ac6fb3a02d0fdd560a863d90504e2633f105d990c5e5f9
-size 6712
+{
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Plant_Crop_TwilightBeans_StageFinal.name"
+  },
+  "Parent": "Plant_Crop_Aubergine_Block",
+  "BlockType": {
+    "State": {
+      "Definitions": {
+        "Stage0": {
+          "CustomModel": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Block_Stage0.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Block_Tex.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 1.25,
+          "HitboxType": "Plant_Large",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Voidbane_Drops_Plant_Crop_TwilightBeans_Seeds_Eternal"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#74a52d",
+          "DrawType": "Model"
+        },
+        "Stage1": {
+          "CustomModel": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Block_Stage1.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Block_Tex.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 1.25,
+          "HitboxType": "Plant_Large",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Voidbane_Drops_Plant_Crop_TwilightBeans_Seeds_Eternal"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#74a52d",
+          "DrawType": "Model"
+        },
+        "Stage2": {
+          "CustomModel": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Block_Stage2.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Block_Tex.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 1.25,
+          "HitboxType": "Plant_Large",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Voidbane_Drops_Plant_Crop_TwilightBeans_Seeds_Eternal"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#74a52d",
+          "DrawType": "Model"
+        },
+        "StageFinal": {
+          "CustomModel": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Block_Stage3.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Block_Tex.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 1.25,
+          "HitboxType": "Plant_Medium",
+          "InteractionHint": "server.interactionHints.harvest",
+          "Interactions": {
+            "Use": {
+              "Interactions": [
+                {
+                  "Type": "HarvestCrop"
+                }
+              ]
+            }
+          },
+          "Gathering": {
+            "Harvest": {
+              "DropList": "Voidbane_Drops_Plant_Crops_TwilightBeans_Eternal_StageFinal_Harvest"
+            },
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Voidbane_Drops_Plant_Crops_TwilightBeans_Eternal_StageFinal"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#1e951c",
+          "DrawType": "Model"
+        }
+      }
+    },
+    "Particles": [
+      {
+        "SystemId": "Plant_Eternal",
+        "DetachedFromModel": false
+      }
+    ],
+    "Farming": {
+      "Stages": {
+        "Default": [
+          {
+            "Duration": {
+              "Min": 10500,
+              "Max": 10500
+            },
+            "Type": "BlockState",
+            "State": "default"
+          },
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage0"
+          },
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2",
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            }
+          },
+          {
+            "Type": "BlockState",
+            "State": "StageFinal",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete"
+          }
+        ],
+        "Harvested": [
+          {
+            "Type": "BlockState",
+            "State": "Stage0",
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "SoundEventId": "SFX_Crops_Grow"
+          },
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ]
+      },
+      "StartingStageSet": "Default",
+      "ActiveGrowthModifiers": [
+        "Fertilizer",
+        "Water",
+        "LightLevel"
+      ],
+      "StageSetAfterHarvest": "Default"
+    },
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false,
+        "DropList": "Voidbane_Drops_Plant_Crop_TwilightBeans_Seeds_Eternal"
+      }
+    },
+    "CustomModel": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Beans_Seed_Planted.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/TwilightBeans/Voidbane_TwilightBeans_Seed_Planted.png"
+      }
+    ],
+    "DrawType": "Model"
+  },
+  "Quality": "Uncommon",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_blocks"
+  ],
+  "Icon": "Icons/ItemsGenerated/Voidbane_Plant_Crop_TwilightBeans_Block.png"
+}

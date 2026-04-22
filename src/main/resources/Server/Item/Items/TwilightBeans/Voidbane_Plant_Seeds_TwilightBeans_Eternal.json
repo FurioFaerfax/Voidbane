@@ -1,3 +1,88 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dea5ce19d275dbd69dbd9da3b17cbc0a23f4704667fb2669cd9204367f8866bc
-size 1857
+{
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Plant_Seeds_TwilightBeans_Eternal.name",
+    "Description": "server.items.Voidbane_Plant_Seeds_TwilightBeans_Eternal.description"
+  },
+  "Quality": "Uncommon",
+  "Categories": [
+    "Blocks.Plants",
+    "VoidbaneCategory.voidbaneCategory_items"
+  ],
+  "Interactions": {
+    "Secondary": "Seed_Condition"
+  },
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "Voidbane_Plant_Crop_TwilightBeans_Block_Eternal"
+        }
+      ]
+    }
+  },
+  "Model": "Resources/Plants/SeedBag.blockymodel",
+  "Texture": "Resources/Plants/SeedBag_Textures/Voidbane_Plant_Crop_TwilightBeans_seeds_eternal.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      0,
+      30,
+      15
+    ],
+    "Translation": [
+      2.5,
+      -11
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Seeds"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Recipe": {
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ItemId": "Voidbane_Plant_Seeds_TwilightBeans"
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 10
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Voidbane_Shadow",
+        "Type": "Crafting",
+        "Categories": [
+          "Voidbane_Shadowlab_Main"
+        ]
+      }
+    ]
+  },
+  "ItemLevel": 18,
+  "Scale": 1.0,
+  "Particles": [
+    {
+      "SystemId": "Seeds_Eternal",
+      "Scale": 0.2,
+      "PositionOffset": {
+        "Y": 0.2
+      }
+    }
+  ],
+  "Icon": "Icons/ItemsGenerated/Plants/TwilightBeans/Voidbane_Plant_Seeds_TwilightBeans_Eternal.png"
+}
