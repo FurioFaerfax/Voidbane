@@ -60,7 +60,7 @@
       "Interactions": [
         {
           "Type": "Command",
-          "Command": "setVoidbaneStoryProgress -1 1 voidbaneStoryDoNotTouch"
+          "Command": "setVoidbaneStoryProgress -1 0 voidbaneStoryDoNotTouch"
         }
       ]
     }

@@ -1,0 +1,57 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Twilightprism.name",
+    "Description": "server.items.Voidbane_Twilightprism.description"
+  },
+  "Categories": [
+    "VoidbaneCategory.voidbaneCategory_items"
+  ],
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/voidbane_twilightprism.png",
+        "Weight": 1
+      }
+    ],
+    "Light": {
+      "Color": "#fff",
+      "Radius": 0
+    },
+    "ParticleColor": "#577da7",
+    "Particles": [
+      {
+        "Color": "#577da7",
+        "SystemId": "E_Sphere_Old",
+        "Scale": 0.2
+      }
+    ],
+    "CustomModel": "Blocks/Twilightprism.blockymodel",
+    "BlockSoundSetId": "Glass",
+    "Gathering": {
+      "Harvest": {
+        "DropList": {
+          "Parent": "Voidbane_Drops_Twilight_Prism"
+        }
+      },
+      "Soft": {
+        "DropList": {
+          "Parent": "Voidbane_Drops_Twilight_Prism"
+        }
+      }
+    }
+  },
+  "IconProperties": {
+    "Scale": 1.8,
+    "Rotation": [
+      22.5,
+      47,
+      20
+    ],
+    "Translation": [
+      1,
+      -6
+    ]
+  },
+  "Parent": "Wood_Sticks",
+  "Icon": "Icons/ItemsGenerated/Voidbane_Item_Twilightprism.png"
+}

@@ -7,7 +7,7 @@
       "line4": "Listen, this is important, I invented a laboratory that combines the darkness and the light, there is no shadow without light, and light means hope, so I call it the 'Shadow Lab'. It can be used to infuse various things with twilight essence, an ingriedient you will get from this lab too. You just need to find Duskmoon, its easy as it is to find such poisonous corrupted places. And you need Dawnberries, you might have seen them already probably. Or not.",
       "line5": "Unfortunately my Shadow Lab was destroyed by a Golem, whilst experimenting. So you need to Craft it on your Own, here is the recipe! The thing is, it involves knowledge of the Void, such is only available through a Void Grimoire if you don't Have a copy of it already, you need to find one quickly.",
       "line6": "would do it on my own, but I am to old now, to face these Creatures another time, I might wont get back alive. Sorry to bother you with that burden, but if you succeed you might be the Cursebreaker! Its just hypothetical and it definitely needs further research. But it should be possible to heal the corrupted places, and maybe, who knows, you could end the curse and banish the Void Creatures as well!",
-      "line7": "If you would do me the favor, return to me after you managed to get twilight essence, and if you do so, bring something with you, and the beans, I want to taste them at least once more."
+      "line7": "If you would do me the favor, return to me after you managed to get twilight essence, and if you do so, bring something with you, and the beans, I want to taste them at least once more. | End of the Chapter!"
     },
     "npc2": {
     }
@@ -18,7 +18,7 @@
       "line2": "Ok, so you managed to get the Essence, and I am glad you came back, I mentioned that you can infuse stuff with it, but I totally missed to tell you how and what you can do with it.",
       "line3": "So, you may noticed already that the Shadow lab has a Tank, where the Essence is stored, and Im glad you managed to crystalized it, so you understand at least half of the functionalities of my Invention",
       "line4": "As far as I have Investigated, most of normal Gear can be infused with the Twilight essence, but the results are more or less stable, It seems that durability Gain is the most common effect, sometimes your protection is higher, your weapons make more damage but I completely am out of answeres how this system works. I barely can Imagine, that it is the unstable state of twilight itself. So further research is needed!",
-      "line5": "Im sorry when it sounds I would know everything but I am just a hermit that touched his hands on something that was to big for him. But I really want to see Orbis recover from this curse, so if you progress you are more than welcome to talk to me about your results"
+      "line5": "Im sorry when it sounds I would know everything but I am just a hermit that touched his hands on something that was to big for him. But I really want to see Orbis recover from this curse, so if you progress you are more than welcome to talk to me about your results | End of the Chapter!"
     },
     "npc2": {
     }
@@ -28,7 +28,7 @@
       "line1": "Brave one, you returned a second time, you seem to get used to twilight stuff, that's nice, and the fact that you returned means to me a lot!",
       "line2": "Theres so much more that I could tell, but I think the time's not right yet. But I appreciate that you continue to listen to an old man who's mind looks like a mashed potato more and more every new day. Haha, just kidding.",
       "line3": "I have a gift for you; this prism, contains strong energy of both, the light and the dark. If you are braver than me, I want you to put it in the empty slot in the laboratory. Its outcome is not clear yet but as I first forged this prism, it felt like, the infusements of my gear reacted to it. I feared to put it in.",
-      "line4": "Now that you came so far, I have another task..., ...no, not task that's not right, Its the burden that all of our Kind has to carry along, its the Mark on our shoulder, the Evil Contained, talk to the Dragon in the Frozen Lands, he will guide you further"
+      "line4": "Now that you came so far, I have another task..., ...no, not task that's not right, Its the burden that all of our Kind has to carry along, its the Mark on our shoulder, the Evil Contained, talk to the Dragon in the Frozen Lands, he will guide you further | End of the Chapter!"
     },
     "npc2": {
     }
@@ -57,11 +57,10 @@
       "line4": "Whatever happens next, even if I am not there at a future time. Please be the hero of Orbis!"
     },
     "npc2": {
-      "line1": "Greetings, I heard of your glorious success, my brother visited not long before your arrival, but vanished again, maybe he tries to heal the Lands. He Gave me this, Some of his scales, you could try to invent a method with the lab of the first one. To heal the Land on your own",
-      "line2": "My brother is back, but so many arent, it is your burden to search for an solution to heal Orbis, its your destiny, dont forget it!",
-      "line3": "I could tell you so many things about Gaia and Varyn, but it feels like not the right time and place for it.",
-      "line4": "Visit the first one again, he may want to give you something too!",
-      "line5": "I await for the future to call for you again, you will know when the time has come, know proceed, brave one!"
+      "line1": "I am sad that you had to do it this way, I never thought it was possible, but as he died, it teared a part of my soul out of me!",
+      "line2": "I could tell you so many things about Gaia and Varyn, but it feels like not the right time and place for it.",
+      "line3": "Visit the first one again, he may want to give you something too!",
+      "line4": "I await for the future to call for you again, you will know when the time has come, know proceed, brave one!",
     }
   },
   "chapter5_1": {
@@ -72,7 +71,8 @@
       "line4": "Whatever happens next, even if I am not there at a future time. Please be the hero of Orbis!"
     },
     "npc2": {
-      "line1": "I am sad that you had to do it this way, I never thought it was possible, but as he died, it teared a part of my soul out of me!",
+      "line1": "Greetings, I heard of your glorious success, my brother visited not long before your arrival, but vanished again, maybe he tries to heal the Lands. He Gave me this, Some of his scales, you could try to invent a method with the lab of the first one. To heal the Land on your own",
+      "line2": "My brother is back, but so many arent, it is your burden to search for an solution to heal Orbis, its your destiny, dont forget it!",
       "line3": "I could tell you so many things about Gaia and Varyn, but it feels like not the right time and place for it.",
       "line4": "Visit the first one again, he may want to give you something too!",
       "line5": "I await for the future to call for you again, you will know when the time has come, know proceed, brave one!"

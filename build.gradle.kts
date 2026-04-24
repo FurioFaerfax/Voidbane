@@ -11,5 +11,5 @@ repositories {
 }
 dependencies {
     // + here means the latest version, but you can hard-wire any known version!
-    implementation("com.hypixel.hytale:Server:+")
+    implementation("com.hypixel.hytale:Server:")
 }
