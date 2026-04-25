@@ -21,13 +21,21 @@
   "MaxHealth": 50,
   "IsMemory": true,
   "MemoriesCategory": "Kweebec",
-  "MemoriesNameOverride": { "Compute": "MemoriesNameOverride" },
-  "DisableDamageGroups": [ "Self" ],
+  "MemoriesNameOverride": {
+    "Compute": "MemoriesNameOverride"
+  },
+  "DisableDamageGroups": [
+    "Self"
+  ],
   "CombatConfig": {
     "EntityEffect": "Immunity_Environmental"
   },
-  "BusyStates": [ "$Interaction" ],
-  "Invulnerable": { "Compute": "Invulnerable" },
+  "BusyStates": [
+    "$Interaction"
+  ],
+  "Invulnerable": {
+    "Compute": "Invulnerable"
+  },
   "KnockbackScale": 0.5,
   "MotionControllerList": [
     {
@@ -106,7 +114,10 @@
               "Actions": [
                 {
                   "Type": "Timeout",
-                  "Delay": [ 2, 2 ],
+                  "Delay": [
+                    2,
+                    2
+                  ],
                   "Action": {
                     "Type": "PlayAnimation",
                     "Slot": "Status"
@@ -169,7 +180,10 @@
               "Actions": [
                 {
                   "Type": "Timeout",
-                  "Delay": [ 1, 1 ],
+                  "Delay": [
+                    1,
+                    1
+                  ],
                   "Action": {
                     "Type": "Sequence",
                     "Actions": [
@@ -248,11 +262,6 @@
                 "Type": "LockOnInteractionTarget"
               },
               {
-                "Type": "SetBlockToPlace",
-                "Block": "Rock_Stone",
-                "Once": false
-              },
-              {
                 "Type": "State",
                 "State": "$Interaction"
               }
@@ -262,5 +271,7 @@
       }
     ]
   },
-  "NameTranslationKey": { "Compute": "NameTranslationKey" }
+  "NameTranslationKey": {
+    "Compute": "NameTranslationKey"
+  }
 }

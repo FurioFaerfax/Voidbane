@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Voidbane_Trophy_Statue1.name",
+    "Description": "server.items.Voidbane_Trophy_Statue1.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Set": "Furniture_Temple_Light",
+  "IconProperties": {
+    "Scale": 0.305,
+    "Rotation": [
+      22.5,
+      6,
+      8
+    ],
+    "Translation": [
+      17,
+      -24
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Blocks/Statues/Voidbane_Evil_Contained_Statue.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Statues/Voidbane_Evil_Contained.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "HitboxType": "Voidbane_Evil_Contained_Statue",
+    "Material": "Solid",
+    "Opacity": "Semitransparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "ParticleColor": "#a6a6a6"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Temple"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1,
+  "Icon": "Icons/ItemsGenerated/Voidbane_Evil_Contained_Statue.png"
+}

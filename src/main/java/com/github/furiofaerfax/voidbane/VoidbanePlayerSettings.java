@@ -15,7 +15,7 @@ public class VoidbanePlayerSettings {
     public boolean[] npcHermitOccursInChapter = {true, true, true, true, true, true};
     public boolean[] npcHermitGiftInChapter = {false, false, true, false, true, false};
     public boolean[] npcHermitGiftRepeatable = {false, false, true, false, false, false};
-    public String[][] npcHermitGifts = {{"",""},{"",""},{"Voidbane_Item_Twilightprism","1"},{"",""},{"Voidbane_Statue1","1"},{"",""}};
+    public String[][] npcHermitGifts = {{"",""},{"",""},{"Voidbane_Item_Twilightprism","1"},{"",""},{"Voidbane_Evil_Contained_Statue","1"},{"",""}};
 
     public boolean currentChapterDragonDone = true;
     public boolean[] npcDragonOccursInChapter = {false, false, false, true, true, true};
