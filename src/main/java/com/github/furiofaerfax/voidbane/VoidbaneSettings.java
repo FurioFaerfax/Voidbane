@@ -18,7 +18,7 @@ import java.util.UUID;
 public final class VoidbaneSettings {
     private static VoidbaneSettings instance;
 
-    String version = "0.4.2";
+    String version = "0.5.0";
     String settingsPath = "voidbane";
     String settingsFile= settingsPath+"/voidbaneSetting.json";
     String playersPath = settingsPath+"/players";

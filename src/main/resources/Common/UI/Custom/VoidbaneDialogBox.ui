@@ -1,0 +1,72 @@
+$C = "Common.ui";
+
+@ContinueButtonStyle = TextButtonStyle(
+  Default: (Background: #297be7, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, RenderUppercase: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+  Hovered: (Background: #507da3, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, RenderUppercase: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+  Pressed: (Background: #0047c5, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, RenderUppercase: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@CloseButtonStyle = TextButtonStyle(
+  Default: (Background: #2b3542, LabelStyle: (FontSize: 16, TextColor: #96a9be, RenderBold: true, RenderUppercase: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+  Hovered: (Background: #3b4552, LabelStyle: (FontSize: 16, TextColor: #b6c9de, RenderBold: true, RenderUppercase: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+  Pressed: (Background: #1b2532, LabelStyle: (FontSize: 16, TextColor: #96a9be, RenderBold: true, RenderUppercase: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+Group {
+  Anchor: (Width: 500, Height: 350);
+  Background: #0b162c(0.98);
+  LayoutMode: Top;
+  Padding: (Full: 24);
+
+  Label #Chapter {
+    Text: "";
+    Anchor: (Height: 55);
+    Style: (
+      FontSize: 32,
+      TextColor: #ffffff,
+      HorizontalAlignment: Center,
+      RenderBold: true
+    );
+  }
+
+  Group {
+    Anchor: (Height: 1);
+    Background: #434c5a;
+  }
+  Group {
+    Anchor: (Height: 8);
+  }
+
+  Group #LastHope {
+    LayoutMode: Top;
+
+   Label #StoryLines {
+      Text: "";
+      Anchor: (Height: 100);
+      Style: (
+        FontSize: 16,
+        TextColor: #8ca0b5,
+        HorizontalAlignment: Center
+      );
+    }
+  }
+  Group { FlexWeight: 1;}
+
+  Group {
+    LayoutMode: Center;
+    Anchor: (Height: 50);
+    TextButton #ContinueButton {
+      Text: "Continue";
+      Anchor: (Width: 140, Height: 44);
+      Style: @ContinueButtonStyle;
+    }
+
+    Group { Anchor: (Width: 20); }
+
+    TextButton #CloseButton {
+      Text: "Close";
+      Anchor: (Width: 140, Height: 44);
+      Style: @CloseButtonStyle;
+    }
+  }
+}

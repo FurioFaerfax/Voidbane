@@ -2,6 +2,7 @@ package com.github.furiofaerfax.voidbane.commands;
 
 import com.github.furiofaerfax.voidbane.VoidbanePlayerSettings;
 import com.github.furiofaerfax.voidbane.VoidbaneSettings;
+import com.github.furiofaerfax.voidbane.pages.StoryDialogBoxPage;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
 import com.hypixel.hytale.server.core.Message;
@@ -36,6 +37,11 @@ public class StoryProgressCommand extends AbstractPlayerCommand {
     String storyPath = "/Server/Languages/en-US/story.json";
     String playersPath = "voidbane/players";
 
+    StoryDialogBoxPage dialogPage;
+    int npc_id = -1;
+    int npc_choice = -1;
+    int currentChapter = 0;
+
     public StoryProgressCommand() {
         super("setVoidbaneStoryProgress", "Super test command!");
         requirePermission (HytalePermissions.fromCommand("voidbaneCommands"));
@@ -47,62 +53,87 @@ public class StoryProgressCommand extends AbstractPlayerCommand {
     @Override
     protected void execute(@Nonnull CommandContext commandContext, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world) {
         Player player = store.getComponent(ref, Player.getComponentType()); // also a component
-        int npc_id = Integer.parseInt(messageArg.get(commandContext)); // get the argument text by the player
-        int npc_choice = Integer.parseInt(messageArg2.get(commandContext)); // get the argument text by the player
+        npc_id = Integer.parseInt(messageArg.get(commandContext)); // get the argument text by the player
+        npc_choice = Integer.parseInt(messageArg2.get(commandContext)); // get the argument text by the player
         String secretKey = messageArg3.get(commandContext); // get the argument text by the player
         VoidbanePlayerSettings voidbanePlayerSettings = VoidbaneSettings.getInstance().getPlayer(player.getDisplayName());
+        currentChapter = voidbanePlayerSettings.currentChapter;
         if(voidbanePlayerSettings != null) {
             if(secretKey.equals("voidbaneStoryDoNotTouch")){
 
-                voidbanePlayerSettings.checkChapterEnd();
 
-                int lineInt = voidbanePlayerSettings.getCurrentNpcLine(npc_id);
-
-                voidbanePlayerSettings.setNpcChoice(npc_id,npc_choice);
-                //Just for now
-                if(npc_id == -1) {
-                    VoidbaneSettings.getInstance().createPlayer(voidbanePlayerSettings.name, player.getUuid());
-                }
-
-                String[] line;
-                if(voidbanePlayerSettings.currentChapter > 1) {
-                    line = getStoryLine(voidbanePlayerSettings.currentChapter, npc_id, lineInt, voidbanePlayerSettings.chapterEndDecision[voidbanePlayerSettings.currentChapter - 2]);
-                } else {
-                    line = getStoryLine(voidbanePlayerSettings.currentChapter, npc_id, lineInt, voidbanePlayerSettings.chapterEndDecision[voidbanePlayerSettings.currentChapter - 1]);
-                }
-
-                if(!line[1].equals("last_line")) {
-                    voidbanePlayerSettings.setCurrentNpcLineIncrement(npc_id);
-                } else {
-                    voidbanePlayerSettings.setCurrentNpcDone(npc_id, true);
-
-                    String[][] checkPlayerCanGetReceiveGift = voidbanePlayerSettings.isPlayerAbleToGetGift(npc_id);
-                    if(checkPlayerCanGetReceiveGift[0][0].equals("true")) {
-                        boolean success = false;
-                        for(int i = 0; i < Integer.parseInt(checkPlayerCanGetReceiveGift[0][1]); i++) {
-                            success = giveStoryItemToPlayer(player, store, ref, checkPlayerCanGetReceiveGift[1][i], Integer.parseInt(checkPlayerCanGetReceiveGift[2][i]), checkPlayerCanGetReceiveGift[3][i].equals("") ? null : BsonDocument.parse(checkPlayerCanGetReceiveGift[3][i]), checkPlayerCanGetReceiveGift[4][i].equals("") ? Double.MAX_VALUE : Double.parseDouble(checkPlayerCanGetReceiveGift[4][i]));
-                        }
-                        if(success) {
-                            voidbanePlayerSettings.setChapterGifts(npc_id);
-                        }
-                    }
-                    voidbanePlayerSettings.checkChapterEnd();
-                    VoidbaneSettings.getInstance().createPlayer(voidbanePlayerSettings.name, player.getUuid());
-                }
+                String[] line = getActiveLine(voidbanePlayerSettings, npc_id, npc_choice, store, ref, player);
 
                 //If not boss
                 if(npc_id > 0) {
+                    dialogPage = new StoryDialogBoxPage(
+                            playerRef,
+                            "Chapter "+voidbanePlayerSettings.currentChapter,
+                            line[0],
+                            this
+                    );
+                    player.getPageManager().openCustomPage(ref, store, dialogPage);
 
-                    player.sendMessage(Message.raw(""));
-                    player.sendMessage(Message.raw("~~~~~~~~~~~~"));
-                    player.sendMessage(Message.raw(""));
-                    player.sendMessage(Message.raw(line[0]));
                 }
             } else {
                 player.sendMessage(Message.raw("You do not have permíssion to perform this command"));
             }
         }
     }
+
+    public String[] progressDialog(@Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref) {
+        Player player = store.getComponent(ref, Player.getComponentType()); // also a component
+        VoidbanePlayerSettings voidbanePlayerSettings = VoidbaneSettings.getInstance().getPlayer(player.getDisplayName());
+        return getActiveLine(voidbanePlayerSettings, npc_id, npc_choice, store, ref, player);
+    }
+    public void closedDialog() {
+        npc_id = -1;
+        npc_choice = -1;
+    }
+    public int getCurrentChapter() {
+        return currentChapter;
+    }
+
+    public String[] getActiveLine(VoidbanePlayerSettings voidbanePlayerSettings, int npc_id, int npc_choice, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, Player player) {
+
+        voidbanePlayerSettings.checkChapterEnd();
+        currentChapter = voidbanePlayerSettings.currentChapter;
+        int lineInt = voidbanePlayerSettings.getCurrentNpcLine(npc_id);
+
+        voidbanePlayerSettings.setNpcChoice(npc_id,npc_choice);
+        //Just for now
+        if(npc_id == -1) {
+            VoidbaneSettings.getInstance().createPlayer(voidbanePlayerSettings.name, player.getUuid());
+        }
+
+        String[] line;
+        if(voidbanePlayerSettings.currentChapter > 1) {
+            line = getStoryLine(voidbanePlayerSettings.currentChapter, npc_id, lineInt, voidbanePlayerSettings.chapterEndDecision[voidbanePlayerSettings.currentChapter - 2]);
+        } else {
+            line = getStoryLine(voidbanePlayerSettings.currentChapter, npc_id, lineInt, voidbanePlayerSettings.chapterEndDecision[voidbanePlayerSettings.currentChapter - 1]);
+        }
+
+        if(!line[1].equals("last_line")) {
+            voidbanePlayerSettings.setCurrentNpcLineIncrement(npc_id);
+        } else {
+            voidbanePlayerSettings.setCurrentNpcDone(npc_id, true);
+
+            String[][] checkPlayerCanGetReceiveGift = voidbanePlayerSettings.isPlayerAbleToGetGift(npc_id);
+            if(checkPlayerCanGetReceiveGift[0][0].equals("true")) {
+                boolean success = false;
+                for(int i = 0; i < Integer.parseInt(checkPlayerCanGetReceiveGift[0][1]); i++) {
+                    success = giveStoryItemToPlayer(player, store, ref, checkPlayerCanGetReceiveGift[1][i], Integer.parseInt(checkPlayerCanGetReceiveGift[2][i]), checkPlayerCanGetReceiveGift[3][i].equals("") ? null : BsonDocument.parse(checkPlayerCanGetReceiveGift[3][i]), checkPlayerCanGetReceiveGift[4][i].equals("") ? Double.MAX_VALUE : Double.parseDouble(checkPlayerCanGetReceiveGift[4][i]));
+                }
+                if(success) {
+                    voidbanePlayerSettings.setChapterGifts(npc_id);
+                }
+            }
+            voidbanePlayerSettings.checkChapterEnd();
+            VoidbaneSettings.getInstance().createPlayer(voidbanePlayerSettings.name, player.getUuid());
+        }
+        return line;
+    }
+
 
     public boolean giveStoryItemToPlayer(Player player, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, String itemId, int quantity, BsonDocument metadata, double durability) {
         ItemStack stack = new ItemStack(itemId, quantity, metadata).withDurability(durability);
