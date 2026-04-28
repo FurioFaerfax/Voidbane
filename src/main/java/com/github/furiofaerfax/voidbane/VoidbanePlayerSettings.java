@@ -52,7 +52,7 @@ public class VoidbanePlayerSettings {
 
     public void setNpcChoice(int npcId, int choiceId) {
         switch (npcId) {
-            case -1: chapterEndDecision[currentChapter-1] = choiceId; boss1Defeated = choiceId;break;
+            case -1: chapterEndDecision[currentChapter-1] = choiceId; boss1Defeated = choiceId; if(choiceId == 0) {npcDragonChapterGiftReceived = true;}break;
             default: ;break;
         }
     }

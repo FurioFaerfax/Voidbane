@@ -5,7 +5,7 @@
     "Appearance": "Dragon_Frost",
     "MaxHealth": 400,
     "PlaceholderAnimation": "Sleep",
-    "IsMemory": true,
+    "IsMemory": false,
     "MemoriesCategory": "Mythic",
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"

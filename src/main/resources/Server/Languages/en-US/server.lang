@@ -59,7 +59,7 @@ items.PortalKey_Darkened_Caverns.description=Voidided in the Dark, but is there 
 
 portals.voidbane_grove=Hermits Grove
 portals.voidbane_grove.description=A hermit resides in this beautiful Grove!
-portals.voidbane_grove.tip1=Deep in its Grove, the hermit lives alone among the Nature.
+portals.voidbane_grove.tip1=Deep in its Grove, the hermit lives alone among the Nature. He is friendly and may tell you something you should know about Orbis.
 
 portals.voidbane_wastes=Frozen Wastes
 portals.voidbane_wastes.description=An Cold landscape with a friendly winged Dragon
@@ -67,7 +67,7 @@ portals.voidbane_wastes.tip1=One of the last of his kind, but will he share his 
 
 portals.voidbane_caverns=Darkened Caverns
 portals.voidbane_caverns.description=Arena of the Voidsided
-portals.voidbane_caverns.tip1=Deep in this caverns you will encounter a voidsided Creature, can you bring him back? IMPORTANT NOTICE: For now, you need to collect the loot and switch it in active hand to trigger the progression! I faced multiple issues while developing and couldnt figure out how to solve it, sorry
+portals.voidbane_caverns.tip1=Deep in this caverns you will encounter a voidsided Creature, can you bring him back? IMPORTANT NOTICE: For now, you need to collect the loot and switch it in active hand to trigger the progression! I faced multiple issues while developing and couldnt figure out how to solve it, sorry.
 
 
 
@@ -81,3 +81,6 @@ items.Voidbane_Workarround.name=Just a workarround, do not Decorate with
 
 
 
+npcRoles.Boss1.name=Fire Dragon
+npcRoles.IceDragon.name=Ice Dragon
+npcRoles.Hermit.name=Hermit

@@ -5,7 +5,8 @@
       {
         "Type": "Single",
         "Item": {
-          "ItemId": "Voidbane_Plant_Crop_TwilightBeans_Item"
+          "ItemId": "Voidbane_Plant_Crop_TwilightBeans_Item",
+          "QuantityMax": 4
         }
       },
       {

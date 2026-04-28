@@ -4,7 +4,6 @@ package com.github.furiofaerfax.voidbane;
 import com.github.furiofaerfax.voidbane.commands.EnterInstanceCommand;
 import com.github.furiofaerfax.voidbane.commands.StoryProgressCommand;
 import com.github.furiofaerfax.voidbane.events.PlayerOnEnterLeave;
-import com.github.furiofaerfax.voidbane.testing.*;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
 import com.hypixel.hytale.server.core.io.adapter.PacketFilter;
@@ -31,24 +30,5 @@ public class Voidbane extends JavaPlugin {
         this.getCommandRegistry().registerCommand(new StoryProgressCommand());
         this.getCommandRegistry().registerCommand(new EnterInstanceCommand());
         this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, PlayerOnEnterLeave::onPlayerReady);
-//        this.getEventRegistry().registerGlobal(PlayerDisconnectEvent.class, PlayerOnEnterLeave::onDisconnect);
-
-
     }
-
-    @Override
-    protected void start() {
-//        LOGGER.atInfo().log("On Start: Registering Tame Action");
-       // NPCPlugin.get().registerCoreComponentType("Tame", BuilderActionTame::new);
-    }
-
-//    @Override
-//    protected void shutdown() {
-//        if (inboundFilter != null) {
-//            PacketAdapters.deregisterInbound(inboundFilter);
-//        }
-//    }
-
-
-
 }

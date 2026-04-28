@@ -7,6 +7,9 @@
     "SplashImage": "DefaultArtwork.png",
     "Tips": [
       "server.portals.voidbane_caverns.tip1"
+    ],
+    "Objectives": [
+      "Wander arround or look at the Map, the Entrance of the Cave is a bit different than the rest"
     ]
   }
 }

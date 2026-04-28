@@ -7,6 +7,9 @@
     "SplashImage": "DefaultArtwork.png",
     "Tips": [
       "server.portals.voidbane_wastes.tip1"
+    ],
+    "Objectives": [
+      "The Dragon once had Made his Home in this Lands, you will find it by Exploring or use the Map"
     ]
   }
 }

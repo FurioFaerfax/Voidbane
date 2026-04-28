@@ -57,7 +57,7 @@
         ]
       }
     ],
-    "RequiredMemoriesLevel": 2,
+    "RequiredMemoriesLevel": 5,
     "OutputQuantity": 5
   },
   "PlayerAnimationsId": "Item",

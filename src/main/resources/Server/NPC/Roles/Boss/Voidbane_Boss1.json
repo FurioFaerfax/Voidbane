@@ -63,7 +63,7 @@
     "NightFlavorAnimation": "",
     "DayTimeNapWeight": 0,
     "TimidDuringDay": false,
-    "IsMemory": true,
+    "IsMemory": false,
     "MemoriesCategory": "Mythic",
     "_InteractionVars": {
       "Melee_Start": {
@@ -101,8 +101,8 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Emberwulf.name",
-      "Description": "Translation key for NPC name display"
+      "Value": "server.npcRoles.Boss1.name",
+      "Description": ""
     }
   }
 }

@@ -19,7 +19,7 @@
   "DefaultPlayerAttitude": "Neutral",
   "Appearance": "Feran_Civilian",
   "MaxHealth": 50,
-  "IsMemory": true,
+  "IsMemory": false,
   "MemoriesCategory": "Kweebec",
   "MemoriesNameOverride": {
     "Compute": "MemoriesNameOverride"

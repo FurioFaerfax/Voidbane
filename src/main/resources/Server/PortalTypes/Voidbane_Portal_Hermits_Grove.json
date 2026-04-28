@@ -7,6 +7,9 @@
     "SplashImage": "DefaultArtwork.png",
     "Tips": [
       "server.portals.voidbane_grove.tip1"
+    ],
+    "Objectives": [
+      "Its a neat little hut, you can spot it via the map or while exploring. But keep in Mind, its not huge, you could easily miss it."
     ]
   }
 }
